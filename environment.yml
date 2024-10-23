@@ -1,1 +1,11 @@
+name: r-environment
+channels:
+  - conda-forge
+dependencies:
+  - r-base
+  - r-irkernel
+  - r-ggplot2   # Add any additional R packages you want here
+  - r-dplyr     # Example of another package
+  - r-tidyverse # If you use the tidyverse
+  - notebook    # Jupyter Notebook
 
